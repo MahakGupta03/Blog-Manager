@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('{{url_for('static',filename='assets/img/about-bg.jpg ')}}')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>About Me</h1>
+                    <span class="subheading">This is what I do.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <!-- <p>{{params['about_text']}}</p> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio quasi alias aspernatur sint aut aliquam dolorum reiciendis suscipit veritatis doloribus expedita quaerat molestias unde ducimus ipsa nemo, obcaecati tempore, nostrum ab necessitatibus quod asperiores ipsum reprehenderit! Dignissimos, debitis amet! Aliquam tempore obcaecati placeat. Maxime sed suscipit incidunt delectus voluptas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, mollitia harum quisquam obcaecati distinctio fugit deleniti accusantium molestias alias dolore itaque ex nemo error, repellat velit ratione perspiciatis! Illo fugiat nobis fugit assumenda provident doloremque ratione dolores, distinctio dicta labore modi nulla sunt facere fuga. Explicabo ab ipsum temporibus, laborum adipisci, minima velit dolores recusandae possimus quaerat expedita. Doloremque, voluptates!</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
